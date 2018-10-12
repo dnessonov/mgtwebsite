@@ -1,0 +1,23 @@
+
+// Add custom styles first
+
+$theme-colors: (
+  "green1": #39a949
+);
+
+@font-face {
+    font-family: 'helveticaHv';
+    src: url('../../fonts/HelveticaNeueLTStd-Hv.otf');
+    font-style: normal;
+}
+
+$link-color: #2089B3;
+
+.nav-link{
+  font-family: 'helveticaHv';
+}
+
+
+// Import full bootstrap styles
+
+@import "../node_modules/bootstrap/scss/bootstrap";
